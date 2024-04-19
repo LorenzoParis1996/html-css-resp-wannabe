@@ -111,6 +111,7 @@ img {
 .why-us {
     margin-bottom: 3rem;
 }
+
 .why-us .col-left {
     width: 40%;
 }
@@ -127,3 +128,69 @@ img {
 /************************************************
     SOLUZIONE RESPONSIVE
  ************************************************/
+
+
+@media screen and (max-width: 768px) {
+    .container {
+        width: 768px;
+        margin: 0 auto;
+        padding: 0 20px;
+    }
+
+}
+
+
+@media screen and (max-width: 480px) {
+    .container {
+        width: 480px;
+        margin: 0 auto;
+        padding: 0 20px;
+    }
+
+    .row {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .lessons .card {
+        width: 170%;
+        margin-left: 25%;
+    }
+
+    .lessons .card:nth-of-type(1) {
+        margin-bottom: 30%;
+    }
+
+    /*RIVEDERE COME SELEZIONARE BENE GLI ELEMENTI*/
+
+    .steps .card {
+        width: 270%;
+        margin-left: 43%;
+    }
+
+    .steps p {
+        margin-bottom: 20%;
+    }
+
+    /*RIVEDERE COME SELEZIONARE BENE GLI ELEMENTI*/
+
+    .why-us .text-center {
+        width: 350px;
+        margin-left: 50px;
+    }
+
+    .why-us .col-left {
+        width: 80%;
+        margin-left: 45px;
+        margin-bottom: 60px;
+    }
+
+    li {
+        width: 132%;
+        margin-left: 20%;
+    }
+
+
+    /*RIVEDERE COME CENTRARE SENZA FARE TUTTO A MANO!!!*/
+
+}
